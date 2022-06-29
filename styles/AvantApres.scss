@@ -1,0 +1,56 @@
+.avant-apres {
+  .item {
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+
+    img {
+      border-radius: 27px;
+      width: 100%;
+      transition: 0.3s;
+    }
+  }
+  .item:hover{
+    transform: scale(1.05);
+    z-index: 1;
+   img{
+    filter: brightness(0.6);
+   }
+   .titre-ref{
+     display: block;
+   }
+  }
+  .filters-button-group{
+      text-align: center;
+  }
+  .titre-ref{
+    color: white;
+    position: absolute;
+    bottom: 11px;
+    left: 22px;
+    z-index: 10;
+    font-weight: 500;
+    transition: 0.3s;
+    font-size: 19px;
+    margin: 0;
+    display: none
+  }
+}
+ 
+.slider{
+  width: 100%;
+  border-radius: 39px;
+  max-width: 500px;
+}
+
+
+
+
+@media screen and (min-width: 1400px) {
+  .filters-button-group{
+    li{
+      font-size: 22px !important;
+    }
+  }
+}

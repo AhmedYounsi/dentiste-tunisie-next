@@ -1,0 +1,88 @@
+.contact-items{
+    padding: 0 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        pointer-events: none;
+        height: 60px;
+        margin-top: 10px;
+    }
+    
+}
+.icon-contact{
+    height: 45px !important;
+}
+.mapouter{position:relative;text-align:right;height:500px;width:100%;}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}
+iframe{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.horaire{
+    border: 1px solid rgba(133, 150, 167, 0.36);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    width: 100%;
+    margin: 0 !important;
+
+    .desc{
+        padding: 20px;
+        .heading-3{
+            font-size: 20px;
+            margin: 0;
+        }
+        
+        p{
+            font-size: 18px !important;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            svg{
+                margin-right: 10px;
+                color: #ff8686;
+            }
+        }
+    }
+    .temps{
+        padding: 20px;
+        
+        .jour{
+            display: flex;
+            align-items: center;
+            height: 50px;
+            border-top: 1px solid #80808087;
+            font-weight: 500;
+            p{
+                font-weight: 500;
+                margin: 0;
+                font-size: 18px !important;
+            }
+            span{
+                margin-left: auto;
+            }
+            svg{
+                font-size: 25px;
+    color: #ff8686;
+    margin-right: 7px;
+            }
+        }
+        .jour:first-child{
+            border: none;
+        }
+    }
+    .image{
+   padding: 0;
+   img{
+       height: 100%;
+   }
+    }
+}

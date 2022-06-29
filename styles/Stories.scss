@@ -1,0 +1,62 @@
+.__Stories {
+  position: relative;
+  background: rgba(247, 247, 247, 0.6901960784);
+  .main-btn-wrap {
+    button {
+      margin: auto;
+    }
+  }
+
+  .article {
+    width: 450px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    height: 300px;
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 10;
+      transform: translate(-50%, -50%);
+      font-size: 90px;
+      color: white;
+      display: none;
+    }
+    img {
+      filter: contrast(0.5);
+      pointer-events: none;
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+    .date-article {
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+    
+      color: white;
+      padding: 0 25px;
+      h3 {
+        font-weight: 600;
+        margin: 0;
+        color: white;
+      }
+      p {
+        color: white;
+      }
+    }
+  }
+  .article:hover {
+    svg {
+      display: block;
+    }
+    .date-article {
+      display: none;
+    }
+  }
+}

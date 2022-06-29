@@ -1,0 +1,44 @@
+.__Actualites {
+  .widget-title::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #ff8686;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .widget_recent_posts,
+  .widget_search {
+    border-radius: 30px;
+  }
+
+  .blog-post-single-item {
+    .thumb {
+      height: 400px;
+      overflow: hidden;
+      border-radius: 31px;
+      margin-bottom: 21px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .blog-post-single-item {
+    .img-blog {
+      position: relative;
+      margin-bottom: 25px;
+      border-radius: 30px;
+    }
+    .content {
+      .post-meta {
+        margin: 0;
+      }
+      .title {
+        padding: 0;
+      }
+    }
+  }
+}

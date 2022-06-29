@@ -1,0 +1,49 @@
+.__Details {
+  .coundown-section {
+    background: #25507d0d;
+    padding-top: 50px !important;
+    padding-bottom: 60px !important;
+
+    .single-couterup {
+      min-height: 300px;
+      max-height: max-content;
+      padding: 20px 10px;
+      background: #f3f7f9;
+      position: relative;
+    }
+  }
+
+  .single-couterup {
+    background: #fcfeff;
+    position: relative;
+   .icon{
+     position: relative;
+     box-shadow: 0px 0px 10px rgb(201 218 244) !important;
+   }
+    img {
+    
+      border-radius: 50%;
+      pointer-events: none;
+    }
+  }
+
+  .valeur-title {
+    font-size: 20px !important;
+    font-weight: 600;
+  }
+
+  .valeur-text {
+    font-size: 18px;
+    color: #959595;
+  }
+
+  @media (min-width: 1400px) {
+    .valeur-title {
+      font-size: 24px !important;
+    }
+
+    .valeur-text {
+      font-size: 22px !important;
+    }
+  }
+}
