@@ -15,6 +15,7 @@ function Traitements() {
     <div className="__Traitement">
       <Head >
         <title>Traitemnts Dentiste Tunisie</title>
+        <link rel="canonical" href="https://tunisie-dentiste.tn/traitement-dentaire-tunisie" />
         </Head>
       <section className="breadcrumb-area">
         <div className="breadcrumb-content">

@@ -10,6 +10,7 @@ function Devis() {
     <div>
             <Head>
         <title>Dentiste Tunisie Tarif | Devis en ligne dentiste</title>
+        <link rel="canonical" href="https://tunisie-dentiste.tn/dentiste-tunisie-tarif" />
          </Head>  
       <section className="breadcrumb-area">
         <div className="breadcrumb-content">

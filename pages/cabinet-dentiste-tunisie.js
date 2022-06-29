@@ -12,6 +12,7 @@ function Cabine() {
     <>
       <Head>
         <title>Cabinet dentiste tunisie | Cabinet Chirurgien Dentiste</title>
+        <link rel="canonical" href="https://tunisie-dentiste.tn/cabinet-dentiste-tunisie" />
       </Head>
       <section className="breadcrumb-area">
         <div className="breadcrumb-content">

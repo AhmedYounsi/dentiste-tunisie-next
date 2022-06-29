@@ -10,7 +10,7 @@ import Link from "next/link";
     <>
           <Head>
         <title>Contact Cabinet Dentiste Tunisie </title>  
-    
+        <link rel="canonical" href="https://tunisie-dentiste.tn/contact-dentiste-tunisie" />
       </Head>   
         <section className="breadcrumb-area">
        

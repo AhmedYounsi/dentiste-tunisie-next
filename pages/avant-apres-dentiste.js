@@ -73,6 +73,7 @@ function AvantApres() {
         <title>
           Avant et après dentiste tunisie | Resultat Cabinet Dentiste
         </title>
+        <link rel="canonical" href="https://tunisie-dentiste.tn/avant-apres-dentiste" />
       </Head>
       <section className="breadcrumb-area">
         <div className="breadcrumb-content">

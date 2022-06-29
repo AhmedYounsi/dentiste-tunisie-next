@@ -21,6 +21,7 @@ function FAQ() {
     <div className="">
         <Head>
         <title>Question Dentiste Tunisie | FAQ</title>
+        <link rel="canonical" href="https://tunisie-dentiste.tn/question-dentiste-tunisie" />
          </Head>  
           <section className="breadcrumb-area">
        

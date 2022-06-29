@@ -9,6 +9,7 @@ function Actualites() {
     <div className="__Actualites">
        <Head>
         <title>Actualités Dentiste Tunisie | Blog dentiste tunisie</title>
+        <link rel="canonical" href="https://tunisie-dentiste.tn/actualite-dentiste-tunisie" />
        </Head>
       <section className="breadcrumb-area">
         <div className="breadcrumb-content">

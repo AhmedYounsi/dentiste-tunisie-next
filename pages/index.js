@@ -13,6 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Cabinet Dentiste Tunisie | Dentiste Chirurgien tunisie</title>
+        <link rel="canonical" href="https://tunisie-dentiste.tn/" />
       </Head>
       <br />
      
