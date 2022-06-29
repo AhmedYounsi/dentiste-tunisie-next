@@ -9,9 +9,9 @@ import Link from "next/link";
 
 function Cabine() {
   return (
-    <>
+    <div className="__Cabinet">
       <Head>
-        <title>Cabinet dentiste tunisie | Cabinet Chirurgien Dentiste</title>
+        <title>Cabinet dentiste tunisie | Presentation</title>
         <link rel="canonical" href="https://tunisie-dentiste.tn/cabinet-dentiste-tunisie" />
       </Head>
       <section className="breadcrumb-area">
@@ -47,7 +47,7 @@ function Cabine() {
               <div className="exp-title">
                 <div className="year">
                   <p>Université Palacky république tchéque</p>
-                  <b>1988</b>
+                  <p className="annee">1988</p>
                 </div>
                 <span>Docteur en médcine dentaire</span>
               </div>
@@ -58,9 +58,9 @@ function Cabine() {
               <div className="exp-title">
                 <div className="year">
                   <p>Hôpital Charles Nicolle</p>
-                  <b>
+                  <p className="annee">
                     1989 <span>-</span> 1890
-                  </b>
+                  </p>
                 </div>
                 <span>
                   1ans d’équivalence à l'hôpital Charles Nicolle service
@@ -74,9 +74,9 @@ function Cabine() {
                 <div className="line"></div>
                 <div className="year">
                   <p>Hôpital Charles Nicolle</p>
-                  <b>
+                  <p className="annee">
                     1993 <span>-</span> 2005
-                  </b>
+                  </p>
                 </div>
                 <span>
                   Mémoire de fin equivalence sur fentes labio-palatines
@@ -89,9 +89,9 @@ function Cabine() {
                 <div className="line"></div>
                 <div className="year">
                   <p>Cabinet privée au Bardo</p>
-                  <b>
+                  <p className="annee">
                     1990 <span>-</span> 1993
-                  </b>
+                  </p>
                 </div>
               </div>
             </div>
@@ -101,9 +101,9 @@ function Cabine() {
                 <div className="line"></div>
                 <div className="year">
                   <p>L’hôpital régional Ben Arous</p>
-                  <b>
+                  <p className="annee">
                     2005 <span>-</span> 2010
-                  </b>
+                  </p>
                 </div>
               </div>
             </div>
@@ -112,9 +112,9 @@ function Cabine() {
               <div className="exp-title">
                 <div className="year">
                   <p>Cabinet privée au Megrine</p>
-                  <b>
+                  <p className="annee">
                     2010 <span>-</span> présent
-                  </b>
+                  </p>
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@ function Cabine() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

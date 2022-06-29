@@ -14,7 +14,7 @@ function Traitements() {
   return (
     <div className="__Traitement">
       <Head >
-        <title>Traitemnts Dentiste Tunisie</title>
+        <title>Traitements Dentiste Tunisie</title>
         <link rel="canonical" href="https://tunisie-dentiste.tn/traitement-dentaire-tunisie" />
         </Head>
       <section className="breadcrumb-area">

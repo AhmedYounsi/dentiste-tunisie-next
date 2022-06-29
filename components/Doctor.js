@@ -56,12 +56,12 @@ function Doctor(props) {
                               Chirurgien dentiste , avec plus de 20 ans
                               d’expérience professionnelle, Asma cherif offre
                               ses services au sein de son propre Cabinet
-                              dentaire spécialisé en :
-                              <b>
-                                {" "}
-                                Implants dentaires, Blanchiment dentaire, Bridge
-                                Ceramique - Zircone ...
-                              </b>
+                              dentaire spécialisé en : <br />
+                              <b>Implants dentaires</b>,
+                              <b> Blanchiment dentaire</b>,
+                              <b>Bridge Ceramique - Zircone</b>...
+                              
+                              <br />
                               <br />
                             </p>
                             <p>
