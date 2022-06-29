@@ -12,9 +12,10 @@ export default function Document() {
           name="description"
           content="cabinet dentiste tunisie vous aide a trouver un cabient dentiste en tunisie et de prendre une consultation qui vous gagantie des traitements dentaires"
         />
-
+      
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://tunisie-dentiste.tn" />
+        <link rel="canonical" href="https://www.tunisie-dentiste.tn" />
       </Head>
       <body>
         <Main />
