@@ -22,7 +22,7 @@ function DetailsCabinet() {
                 <h3 className="valeur-title mt-3">DES SOINS DE QUALITÉ</h3>
                 <h4 className="valeur-text">
                   La qualité des soins prodigués et la sécurité de nos patients
-                  sont une priorité chez <br /> <b>Cabient dentiste tunisie</b>
+                  sont une priorité chez <br /> <b>Cabinet dentiste tunisie</b>
                 </h4>
               </div>
             </div>
@@ -35,7 +35,7 @@ function DetailsCabinet() {
               <div className="content">
                 <h3 className="valeur-title mt-3">DU MATÉRIEL DE POINTE</h3>
                 <h4 className="valeur-text">
-                  <b>Cabient dentiste tunisie</b> dispose d’un matériel de
+                  <b>Cabinet dentiste tunisie</b> dispose d’un matériel de
                   pointe, adapté à la morphologie des plus petits et adoptons
                   une approche adaptée à chacun
                 </h4>
@@ -54,7 +54,7 @@ function DetailsCabinet() {
                 </h3>
                 <h4 className="valeur-text">
                   Consultez notre rubrique FAQ pour plus d’informations. <br />
-                  <b>Cabient dentiste tunisie </b>vous répond !
+                  <b>Cabinet dentiste tunisie </b>vous répond !
                 </h4>
               </div>
             </div>

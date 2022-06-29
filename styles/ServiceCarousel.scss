@@ -2,6 +2,20 @@
   background: rgba(37, 80, 125, 0.051);
 
 
+  .valeur-area {
+    max-width: 850px;
+ p{
+  font-size: 19px !important;
+  color: #595959;
+  font-weight: 500;
+ }
+ svg{
+  color: #ff9191;
+  font-size: 30px;
+  margin-right: 7px;
+ }
+  }
+  
 @media (max-width: 600px) {
   .hHJTFD {
     margin: 0 !important;
@@ -20,3 +34,5 @@
 
 
 }
+
+

@@ -40,7 +40,7 @@ function Traitements() {
           <div className="row col-lg-12">
             <div className="common-title padding-bottom-20">
               <h2 className="heading">Nos traitements dentaires</h2>
-              <div className="valeur-area m-auto mt-3">
+              <div className="valeur-area col-md-8 m-auto mt-3">
                 <p>
                   Chez <b>Tunisie Dentiste</b>, nous vous garantissons des{" "}
                   <b>traitements dentaires</b> adaptés à vos besoins, au prix le plus juste et avec
