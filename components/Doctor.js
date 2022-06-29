@@ -34,6 +34,7 @@ function Doctor(props) {
                               : "/img/dentiste-tunisie-asma-cherif.jpg"
                           }
                           alt="dentiste tunisie asma cherif"
+                          as="true"
                           priority
                           layout="responsive"
                           width={450}

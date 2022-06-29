@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Image from "next/image";
 
 import "../styles/globals.css";
 import "../styles/Contact.scss";
@@ -33,6 +34,12 @@ function MyApp({ Component, pageProps }) {
   }, []);
   return (
     <Layout>
+      <div
+        className="background"
+        style={{
+          backgroundImage: "url('/img/background-dentiste-tunisie.jpg')"
+        }}
+      ></div>
       <Component {...pageProps} />
     </Layout>
   );

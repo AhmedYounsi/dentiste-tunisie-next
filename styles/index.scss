@@ -5,9 +5,14 @@ body {
  .header{
   font-family: 'Montserrat', sans-serif;
  }
-p{
-  
-  
+.background{
+  position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.06;
+    background-size: cover;
 }
 header .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
